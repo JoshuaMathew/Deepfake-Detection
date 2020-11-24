@@ -2,6 +2,10 @@
 
 ## Introduction
 
+<p align="center">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.technologyreview.com%2F2019%2F09%2F05%2F65353%2Ffacebook-is-making-ai-deepfakes-to-head-off-a-disinformation-disaster%2F&psig=AOvVaw3-iijt_VjIbY6QUdqteQg8&ust=1606340810642000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiHiISUnO0CFQAAAAAdAAAAABAD">
+</p>
+
 Deepfakes are images and videos in which the original subject’s likeness is replaced with someone else’s using deep neural networks. There have been many recent advances in the development of deepfakes, the best deepfakes now are extremely realistic and undetectable by the human eye. 
 
 Deepfakes have the potential to severely disrupt the political, social, and economic sectors across the globe. They can be used to depict politicians and celebrities in compromising or pornographic images. In ordering to combat the threat that deepfakes pose, many governments and private companies are heavily investing in deepfake detection research. Google, Facebook, Microsoft, Amazon, and many universities have collaborated to create deepfake datasets and detection challenges to spur progress in this field. 
