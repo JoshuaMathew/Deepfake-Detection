@@ -3,7 +3,7 @@
 ## Introduction
 
 <p align="center">
-  <img src="https://wp.technologyreview.com/wp-content/uploads/2019/09/deepfakecoffee_2-10.jpg?fit=1032,688">
+  <img src="https://wp.technologyreview.com/wp-content/uploads/2019/09/deepfakecoffee_2-10.jpg?fit=516,344">
 </p>
 
 Deepfakes are images and videos in which the original subject’s likeness is replaced with someone else’s using deep neural networks. There have been many recent advances in the development of deepfakes, the best deepfakes now are extremely realistic and undetectable by the human eye. 
