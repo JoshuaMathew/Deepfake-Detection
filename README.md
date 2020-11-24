@@ -17,7 +17,8 @@ Below is a depiction of the overall pipeline used for deepfake detection.
 </p>
 
 The first part of this deepfake detector is the generation of optical flow fields. An optical flow field is a vector field showing the apparent motion between each frame of a video. Optical flow is calculated by assuming that the pixel colors associated with an object are persistent across each frame.  
-The optical flow fields were generated using the Farneback method [1] implemented in the OpenCV computer vision library. An example flow field showing the motion of cars on the highway is depicted above. The colors in the flow field are a function of the speed and direction of each object.
+
+The optical flow fields were generated using the Farneback method [1] implemented in the OpenCV computer vision library. An example flow field showing the motion of cars on the highway is depicted below. The colors in the flow field are a function of the speed and direction of each object.
 
 <p align="center">
   <img src="https://github.com/JoshuaMathew/Deepfake-Detection/blob/main/images/traffic_flow.JPG">
