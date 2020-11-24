@@ -17,7 +17,7 @@ Below is a depiction of the overall pipeline used for deepfake detection.
 The first part of this deepfake detector is the generation of optical flow fields. An optical flow field is a vector field showing the apparent motion between each frame of a video. Optical flow is calculated by assuming that the pixel colors associated with an object are persistent across each frame.  
 The optical flow fields were generated using the Farneback method [1] implemented in the OpenCV computer vision library. An example flow field showing the motion of cars on the highway is depicted above. The colors in the flow field are a function of the speed and direction of each object.
 
-![traffic flow](https://github.com/JoshuaMathew/Deepfake-Detection/blob/main/images/traffic_flow.JPG)
+<img align="center" src="https://github.com/JoshuaMathew/Deepfake-Detection/blob/main/images/traffic_flow.JPG">
 
 Dense optical flow fields were generated for the first 40 frames of each video. Each flow field was then decomposed into a magnitude and direction matrix. The matrices were then resized to have a shape of 200×200 and stacked on top of each other, creating a 200×200×2 array. Thus, for every video, a 40×200×200×2 array was generated. Stacking the matrices in this way makes sense because every stacked magnitude and direction matrix element is associated with the same pixel in the original video frame. 
 
