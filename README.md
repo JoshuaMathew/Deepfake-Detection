@@ -21,7 +21,7 @@ The optical flow fields were generated using the Farneback method [1] implemente
 
 Dense optical flow fields were generated for the first 40 frames of each video. Each flow field was then decomposed into a magnitude and direction matrix. The matrices were then resized to have a shape of 200×200 and stacked on top of each other, creating a 200×200×2 array. Thus, for every video, a 40×200×200×2 array was generated. Stacking the matrices in this way makes sense because every stacked magnitude and direction matrix element is associated with the same pixel in the original video frame. 
 
-The second part of the detection system is a convolutional LSTM neural network [2]. The convolutional LSTM layers replace the matrix multiplication of a normal LSTM layer with convolution operations. Therefore the 200×200×2 magnitude and direction matrices can be inputted into the network without flattening them into a vector. The network structure is summarized below.
+The second part of the detection system is a convolutional LSTM neural network [2]. The convolutional LSTM layers replace the matrix multiplication of a normal LSTM layer with convolution operations. Therefore the 200×200×2 magnitude and direction matrices can be inputted into the network without flattening them into a vector. The network structure is summarized below. The combined convolutional LSTM model can capture spatiotemporal correlations better than a sequential combination of a normal CNN and LSTM networks.
 
 ![structure](https://github.com/JoshuaMathew/Deepfake-Detection/blob/main/images/structure.JPG)
 
