@@ -88,3 +88,5 @@ The next steps for this project are to generate the optical flows with the large
 
 [6]	P. Viola and M. Jones, “Rapid object detection using a boosted cascade of simple features,” Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001.
 
+[7] Knight, W., 2019. Facebook Is Making Its Own AI Deepfakes To Head Off A Disinformation Disaster. [online] MIT Technology Review. Available at: <https://www.technologyreview.com/2019/09/05/65353/facebook-is-making-ai-deepfakes-to-head-off-a-disinformation-disaster/> [Accessed 24 November 2020].
+
