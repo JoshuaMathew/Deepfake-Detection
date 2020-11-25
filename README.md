@@ -14,7 +14,7 @@ This project will introduce a novel method for deepfake video detection utilizin
 
 ## Method
 
-Below is a depiction of the overall pipeline used for deepfake detection.
+Below is a depiction of the overall pipeline used for deepfake detection:
 
 <p align="center">
   <img src="https://github.com/JoshuaMathew/Deepfake-Detection/blob/main/images/detection_pipeline.JPG">
@@ -46,7 +46,7 @@ Optical flow fields were generated for 800 videos taken from the Celeb-DF deepfa
 | :---:  | :-: | :-:| :-: |
 | Conv-LSTM, 40 frames| 95.30  | 70.50 | 71.40 |
 
-Below are plots of the model accuracy and loss.
+Below are plots of the model accuracy and loss:
 
 <p align="center">
   <img src="https://github.com/JoshuaMathew/Deepfake-Detection/blob/main/images/model_accuracy.JPG">
